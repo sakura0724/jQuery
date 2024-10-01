@@ -100,9 +100,10 @@
           $('.' + i).find('.stars').text(fortuneResults[i][rand]['stars']);
           $('.' + i).find('.detail').text(fortuneResults[i][rand]['detail']);
 
-          $('.result').fadeIn(1000);
+       };   
+       $('.result').fadeIn(1000);
 
-      };
+      
       $(this).toggleClass('js-fortune-again');  
       $(this).toggleClass('js-fortune-start');
       $(this).text('もう一度占う！');
